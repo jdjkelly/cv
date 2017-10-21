@@ -1,0 +1,167 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Joshua Kelly} & \href{mailto:jdjkelly@gmail.com}{jdjkelly@gmail.com} \\
+  {VP Engineering, Hacker, Artist} & +1 (647) 780 8114 \\
+  \href{https://www.github.com/jdjkelly}{github.com/jdjkelly} & \href{https://angel.co/joshua-kelly}{angel.co/joshua-kelly} \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Universe (part of NYSE:LYV)}{Toronto, ON}
+      {Vice President, Engineering}{Dec 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{DIY Ticketing}
+          {Universe is an international DIY platform for selling tickets. We power event ticketing for some of the most passionate fans in the world like \textbf{Blizzard Entertainment}'s annual Blizzcon. If you've been to a \textbf{TechCrunch Disrupt} recently, you've used our tech.}
+        \resumeItem{Exit}
+          {Acquired by \textbf{Live Nation Entertainment} (on behalf of their subsidiary, \textbf{Ticketmaster}) in 2015 for an undisclosed amount. Member of the original pre-acquisition team, hired as the second developer, and remaining the lead from 2013 until the acquisition. Provided technical specifications to Ticketmaster CTO during due diligence.}
+        \resumeItem{Growth}
+          {Led tech team through a period of 3x annualized growth in transactional volume - scaling the platform from \$x0M in annual gross ticket sales to \$x00M. Today, Universe has over 60 employees serving 12 international markets with offices in San Francisco, Toronto, and London.}
+        \resumeItem{Tech Leadership}
+          {Launched a developer platform (\href{https://developers.universe.com}{developers.universe.com}) and a \textbf{GraphQL API} - the first in the event industry.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Universe}{Toronto, ON}
+      {Senior Software Developer}{Apr 2012 - Nov 2016}
+      \resumeItemListStart
+        \resumeItem{VC-Backed Startup}
+          {Pre-acquisition Universe, above, was initially a VC-backed startup (\textbf{Real Ventures}), raising \$2.5M.}
+        \resumeItem{Architecture}
+          {Designed and built version one of most of core system applications, from the heart of our consumer facing checkout experience (embed.js) to complex data warehousing and ETL pipelines.}
+        \resumeItem{Product Development}
+          {Launched successful products during pivotal moments of company history. Successfully designed scaling solutions for the first high-volume Blizzcon, which exceeded Stripe's undisclosed transactional rate limit and required custom support on their end.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Enginess (formerly Moveable Online)}{Toronto, ON}
+      {Web Developer}{Jan 2011 - Mar 2012}
+      \resumeItemListStart
+        \resumeItem{Advantage WebStore}
+          {Onboarded new clients on to a proprietary e-commerce platform for mid-sized retailers. Supported the rollout of the product's first bilingual store, designing and developing core product localization.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://www.github.com/jdjkelly/quant}{Quant}}
+      {A quantified-self, self-hosted tracking platform with support for seveal major device manufacturers including FitBit and Withings (now Nokia).}
+    \resumeSubItem{\href{https://www.github.com/jdjkelly/nockxir}{Nockxir}}
+      {An Elixir-based interpreter for Urbit's Nock combinator VM.}
+    \resumeSubItem{\href{https://www.github.com/jdjkelly/transponder}{Transponder}}
+      {A short-form decentralized messaging app built on Ethereum's contract event logs with Solidity and Truffle at \textbf{ETHWaterloo} 2017, to-date the largest Ethereum hackathon in the world.}
+    \resumeSubItem{df8}
+      {Winner of Music Hackday, Toronto. A distributed, collaborative music sequencer using mobile phones and WebSockets.}
+    \resumeSubItem{(Redacted)}
+      {A gallery installation in London. Using images crawled from a large social media app, I trained a generative adversarial network to produce a haunting series of artificial faces.}
+  \resumeSubHeadingListEnd
+
+%-----------PRESS---------------------
+\section{Press}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://www.theverge.com/2013/6/4/4392996/fitness-tracker-data-platforms-launch-giving-users-control}{Free your Fitbit, The Verge}}
+      {Featured alongside Naveen Selvadurai of Foursquare, \textbf{The Verge} wrote about my quantified-self tracking application.}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Toronto (Trinity College)}{Toronto, ON}
+      {Bachelor of Arts With Distinction}{Sep. 2006 -- Dec. 2010}
+  \resumeSubHeadingListEnd
+
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Elixir, JavaScript, Ruby, Python, Rust, SQL, R, Solidity}
+    }
+    \item{
+      \textbf{Technologies}{: AWS, GCE, Kubernetes, Ethereum, Urbit, Postgres, MongoDB, Redis, vim, POSIX}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
