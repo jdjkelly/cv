@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Joshua Kelly",
+    "label": "VP, Engineering",
+    "picture": "https://www.dropbox.com/s/71opknzht33ss88/Screenshot%202017-10-19%2013.42.22.png?dl=0",
+    "email": "jdjkelly@gmail.com",
+    "phone": "1 (647) 780-8114",
+    "summary": "In 2011 I became the second developer at a VC-backed ecommerce startup in the 'sharing economy' space. That company was sold to Live Nation Entertainment in 2015, and I became Universe's Vice President, Engineering. If you've bought a ticket to a TechCrunch Disrupt recently, you've used us. I was its primary technical architect, and designed critical-path solutions for the company in key moments: from launching our first sale for Blizzard's Blizzcon (an infamously hard to scale event), to writing version one of our embedded checkout product - the essential reason for our later acquisiton. As a team of sixty today, we have a global presence with offices in San Francisco, Toronto, New York, and London. Independently of my leadership at Universe, I am a technologist at heart. Some of my original work in 2017 includes:  - Spring: A gallery installation in London, titled 'Corporeality'. Using images crawled from a large social media app, I trained a DCGAN to produce new instances of images to match the set. The end result was a haunting series of 'artifical' faces - ghost-like phantoms. - Summer: An Elixir-based interpreter for Urbit's Nock combinator VM as specified in their whitepaper (https://www.github.com/jdjkelly/martian  ) - Fall: A short-form decentralized messaging app built on Ethereum's contract event logs (https://www.github.com/jdjkelly/transponder)",
+    "location": {
+      "address": "1603-250 Heath St West",
+      "postalCode": "M5P 3L4",
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "@nmgrm",
+        "url": "https://www.twitter.com/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jdjkelly",
+        "url": "https://github.com/jdjkelly"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Universe (part of NYSE: LYV)",
+      "position": "Vice President, Engineering",
+      "website": "https://www.universe.com",
+      "startDate": "2017-01",
+      "endDate": "Today",
+      "summary": "Universe is an international DIY platform for selling tickets. Our technology powers the ticket buying experience for some of the most passionate fans in the world (Blizzard Entertainment's annual Blizzcon) and some of tech's biggest events (TechCrunch Disrupt).",
+      "highlights": [
+        "Acquired by Live Nation Entertainment in 2015 for an undisclosed amount",
+        "Member of original pre-acquisition team, second developer",
+        "Led team through scaling a platform transacting $x0M to $x00M in gross ticket sales"
+      ]
+    },
+    {
+      "company": "Uniiverse Collaborative Lifestyle Inc.",
+      "position": "Senior Software Developer",
+      "website": "https://www.universe.com",
+      "startDate": "2012-04",
+      "endDate": "2016-12",
+      "summary": "Pre-acuqisition Universe, above, was initially a VC-backed startup (led by Real Ventures), raising $2.5M.",
+      "highlights": [
+        "Architected and built version one of the core application, from $0 to $x0M in gross ticket sales",
+        "Launched Embed.js - a best-in-class distributed commerce ticket checkout"
+        "Participated in technical due diligence process with Ticketmaster CTO during LNE acquisition"
+      ]
+    },
+    {
+      "company": "Enginess (formerly Moveable Online)",
+      "position": "Web Developer",
+      "website": "https://www.enginess.io",
+      "startDate": "2011-01",
+      "endDate": "2012-03",
+      "summary": "Pre-acuqisition Universe, above, was initially a VC-backed startup (led by Real Ventures), raising $2.5M.",
+      "highlights": [
+        "Architected and built version one of the core application, from $0 to $x0M in gross ticket sales",
+        "Participated in technical due diligence process with Ticketmaster CTO during LNE acquisition"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Toronto",
+      "area": "Philosophy",
+      "studyType": "Bachelor (with distinction)",
+      "startDate": "2007-09",
+      "endDate": "2011-04"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Corporeality",
+      "publisher": "LD50",
+      "releaseDate": "2017-04-01",
+      "summary": "A multi-media gallery installation featuring original work produced by a DCGAN I trained on a "
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
